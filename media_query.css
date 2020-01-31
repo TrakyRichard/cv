@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    color: #46394C;
+    font-family: arial, "anonymousregular" ;
+    box-sizing: border-box;
+
+}
+
+.about_us{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-left: -130px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.about_text{
+    margin: 0px;
+}
+
+
+.intro-container .intro-speech{
+    padding-left: 10px;
+}
+
+.leisure .the_leisure{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top:10px ;
+    border: 1px solid rgb(47, 68, 254);
+    border-radius: 50px;
+    text-align: center;
+    margin-left:100px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top:7px ;
+    width:35% ;
+
+}

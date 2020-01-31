@@ -1,10 +1,10 @@
 body{
+    width: 100%;
     margin: 0px;
-    padding: Opx;
+    padding: 0px;
     font-family: Roboto;
     color: #46394C;
     font-family: arial, "anonymousregular" ;
-    box-sizing: border-box;
 
 }
 @font-face {
@@ -33,7 +33,6 @@ body{
 
 .intro-container .intro-speech{
     padding-top: 100px;
-    padding-left: 100px;
     height: 700px;
     display: flex;
     flex-direction: row;
@@ -76,14 +75,13 @@ body{
 }
 
 .about_text{
-    margin-left: 50px;
-    width: 700px;
+    margin-left: -50px;
+    width: 400px;
     font-weight: bold;
 }
 
 .leisure_container{
     padding-top: 100px;
-    padding-left: 150px;
     padding-bottom: 100px;
     background-color: #363732;
     color: rgb(223, 219, 213);
@@ -95,6 +93,7 @@ body{
 
 .leisure .the_leisure{
     display: inline-block;
+    position: relative;
     width: 100px;
     height: 100px;
     margin-top:10px ;
@@ -104,8 +103,11 @@ body{
     margin-left:100px;
 }
 
-.leisure .the_leisure div{
+.leisure .the_leisure p{
     padding-top: 40px;
+    position: relative;
+    margin: auto;
+    text-align: center;
 }
 
 header{
@@ -151,7 +153,7 @@ a[title= "ici"]{
     display: inline-block;
 }
 .card_section{
-    background-color: rgb(119, 63, 14);
+    background-color: rgb(29, 25, 21);
 
 }
 .card_container{
@@ -242,11 +244,12 @@ a[title= "ici"]{
 }
 
 #skillsSection{
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: space-around;
     width: 100%;
-    display: flex;
+
 }
 .card_skiils
 {
@@ -425,8 +428,9 @@ svg circle:nth-child(2){
 
 /*Footer Beginning*/
 
-#footer{
+.footer{
     display: flex;
+    flex-direction: row;
     height: 200px;
     background: #000;
 }
